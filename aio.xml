@@ -11,6 +11,10 @@
 
     <!-- Removed Projects -->
     <remove-project path="packages/resources/devicesettings" />
+    <remove-project path="frameworks/native" />
+    <remove-project path="frameworks/base" />
+    <remove-project path="packages/apps/crDroidSettings" />
+    <remove-project path="system/memory/lmkd" />
 
     <!-- Device Tree Repositories -->
     <project path="device/xiaomi/alioth" 
@@ -60,6 +64,18 @@
              remote="git" 
              revision="los" />
     
+    <project path="frameworks/native" 
+             name="crdroid-fe/android_frameworks_native" 
+             remote="git" 
+             revision="14.0" 
+             clone-depth="1" />
+    
+    <project path="frameworks/base" 
+             name="crdroid-fe/android_frameworks_base" 
+             remote="git" 
+             revision="14.0" 
+             clone-depth="1" />
+    
     <project path="vendor/lineage-priv/keys" 
              name="los-alioth/keys" 
              remote="git" 
@@ -69,5 +85,17 @@
     <project path="vendor/gapps" 
              name="android_vendor_gapps" 
              remote="bit" />
+    
+    <project path="system/memory/lmkd" 
+             name="ProjectMatrixx/android_system_memory_lmkd" 
+             remote="git" 
+             revision="14.0" 
+             clone-depth="1" />
+    
+    <project path="packages/apps/crDroidSettings" 
+             name="crdroid-fe/android_packages_apps_crDroidSettings" 
+             remote="git" 
+             revision="14.0" 
+             clone-depth="1" />
 
 </manifest>
