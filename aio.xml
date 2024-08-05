@@ -10,7 +10,6 @@
             revision="refs/heads/14.0" />
 
     <!-- Removed Projects -->
-    <remove-project path="system/libhwbinder" />
     <remove-project path="packages/resources/devicesettings" />
     <remove-project path="frameworks/native" />
     <remove-project path="frameworks/base" />
@@ -65,12 +64,6 @@
              name="sm8250-stuffs/packages_resources_devicesettings" 
              remote="git" 
              revision="los" />
-    
-    <project path="system/libhwbinder" 
-             name="Evolution-XYZ/system_libhwbinder" 
-             remote="git" 
-             revision="udc" 
-             clone-depth="1" />
     
     <project path="frameworks/native" 
              name="los-alioth/android_frameworks_native_cr" 
