@@ -68,4 +68,10 @@
              revision="14.0" 
              clone-depth="1" />
 
+    <project path="vendor/lineage-priv/keys" 
+             name="los-alioth/keys" 
+             remote="git" 
+             revision="los" 
+             clone-depth="1" />
+
 </manifest>
