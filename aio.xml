@@ -57,7 +57,7 @@
              revision="los" />
     
     <project path="frameworks/native" 
-             name="android_frameworks_native_rsg" 
+             name="crdroid-fe/android_frameworks_native_rsg" 
              remote="git" 
              revision="fourteen" 
              clone-depth="1" />
