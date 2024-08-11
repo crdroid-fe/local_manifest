@@ -20,7 +20,7 @@
     <project path="device/xiaomi/alioth" 
              name="nhAsif/device_xiaomi_alioth" 
              remote="git" 
-             revision="aosp-14-matrix" 
+             revision="aosp-14-oss" 
              clone-depth="1" />
     
     <project path="device/xiaomi/sm8250-common" 
