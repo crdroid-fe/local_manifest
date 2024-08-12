@@ -65,13 +65,13 @@
              revision="los" />
     
     <project path="frameworks/native" 
-             name="crdroid-fe/android_frameworks_native" 
+             name="crdroid-fe/android_frameworks_native_new" 
              remote="git" 
              revision="14.0" 
              clone-depth="1" />
     
     <project path="frameworks/base" 
-             name="crdroid-fe/android_frameworks_base" 
+             name="crdroid-fe/android_frameworks_base_new" 
              remote="git" 
              revision="14.0" 
              clone-depth="1" />
